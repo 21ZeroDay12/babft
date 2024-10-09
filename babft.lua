@@ -10,7 +10,7 @@ while wait(3) do
   local i = workspace.BoatStages.NormalStages.CaveStage9.DarknessPart.CFrame
   local j = workspace.BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame
   local end_ = workspace.BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame
-  local yapidor = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+  local yapidor = game.Players.LocalPlayer:WaitForChild("Character"):WaitForChild("HumanoidRootPart").CFrame
   local waiting = 1.89
   game.Workspace.Gravity = 0
   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = a
