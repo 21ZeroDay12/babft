@@ -1,4 +1,4 @@
-while wait() do
+while wait(3) do
   local a = workspace.BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame
   local b = workspace.BoatStages.NormalStages.CaveStage2.DarknessPart.CFrame
   local c = workspace.BoatStages.NormalStages.CaveStage3.DarknessPart.CFrame
